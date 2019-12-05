@@ -1,0 +1,23 @@
+2017前端面试题趋势总结：
+	京东：js  对象的深复制
+			 对js中面向对象的理解
+2018腾讯
+	游戏开发岗位
+		xmlHttpRequest的底层是什么
+		json的缺点是什么
+		promise了解过吗
+		除了json还有哪些数据格式
+		websocket的原理
+		websocket和http和tcp的关系
+		js继承有哪些？你最熟悉的是哪种？为啥要用这种，你是在什么时候用的这种。
+		apply、bind、call，为啥要用这三个，他们的区别是什么
+
+		怎么用webgl里面的shader画立方体
+		c++中的虚函数的编译过程
+		TCP和UDP的区别，已经TCP建立了连接的情况下TCP和UDP哪个传输数据比较好，在格斗游戏中
+
+与php对接接口的时候，时间类型要求是时间戳。
+	直接new Date().toString();      //假如是 2018-03-22
+	和new Date(new Date().getTime()).toString();   //2018-03-21
+	虽然打印出来不一样，但是也不要进行加一天的操作了。
+	这种，直接使用new Date().getTime()传给php即可，是正确的。传之前，先除以1000
